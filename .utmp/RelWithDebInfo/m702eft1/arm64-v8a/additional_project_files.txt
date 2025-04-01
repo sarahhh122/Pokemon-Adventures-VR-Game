@@ -1,0 +1,17 @@
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/GAToUnityCallbacks.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/MacroEnd.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/MacroHeaderBegin.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/MacroSourceBegin.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAApplication.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAConfiguration.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGADebug.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAEvents.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAInput.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGASoftKeyboard.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGASoftKeyboardCallbacks.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGATypes.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UGAVersion.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UnityToGACallbacks.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UnityToGAConfigurationCallbacks.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UnityToGAKeyEventCallbacks.h
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/UnityToGAMotionEventCallbacks.h

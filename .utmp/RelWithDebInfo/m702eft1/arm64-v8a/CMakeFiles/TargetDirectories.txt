@@ -1,0 +1,5 @@
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/.utmp/RelWithDebInfo/m702eft1/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/.utmp/RelWithDebInfo/m702eft1/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/.utmp/RelWithDebInfo/m702eft1/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/.utmp/RelWithDebInfo/m702eft1/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/.utmp/RelWithDebInfo/m702eft1/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

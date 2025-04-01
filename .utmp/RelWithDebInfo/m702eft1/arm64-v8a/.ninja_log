@@ -1,0 +1,10 @@
+# ninja log v5
+13	3501	1743250181876979779	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	aee62b46ed210a93
+8	3512	1743250181882209382	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	119b7fe6358712b6
+3	3598	1743250181972264297	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	57858f166c928e26
+15	3624	1743250182001209450	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6c0cb5fc10471c21
+4	3746	1743250182122300640	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	6fb81b78048faac8
+18	3798	1743250182173286375	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	c0598002c23d0901
+11	4323	1743250182700677811	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	4ec6c079244789d1
+1	4667	1743250183041011652	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	a5db81a1bfca5b53
+4668	4865	1743250183234892824	/Users/karimkhaled/Downloads/Github/Pokemon-Adventures-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/m702eft1/obj/arm64-v8a/libgame.so	527c4b40222cfdbb
