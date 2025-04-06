@@ -5,16 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 55daccc09a3b69647bbab145b54a3ab3
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/StartUI.unity
+    guid: 0a4e460798bae4cde85fe16d69e8220e
+  - enabled: 1
     path: Assets/Scenes/VRROOMSarah.unity
     guid: d77b918576c84400093e80ad68e3ebb5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MainPokeScene.unity
     guid: df158d4fec0503e4ebf0b3d8164a07be
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/GroceryScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 1
