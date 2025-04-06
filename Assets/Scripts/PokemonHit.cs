@@ -25,13 +25,10 @@ public class PokemonHit : MonoBehaviour
 
     void CapturePokemon()
     {
-        // Add score for capturing the Pokémon
         ScoreManager.instance.AddScore(scoreValue);
         
-        // Play the "good job" sound at the Pokémon's position
         AudioSource.PlayClipAtPoint(goodJobClip, transform.position);
         
-        // Optionally, hide the Pokémon's visuals immediately so it appears "captured"
         Renderer[] renderers = GetComponentsInChildren<Renderer>();
         foreach (Renderer r in renderers)
         {
@@ -41,7 +38,6 @@ public class PokemonHit : MonoBehaviour
         if (col != null)
             col.enabled = false;
         
-        // Destroy the Pokémon after the length of the sound so the clip can finish playing
         Destroy(gameObject, goodJobClip.length);
     }
 }
