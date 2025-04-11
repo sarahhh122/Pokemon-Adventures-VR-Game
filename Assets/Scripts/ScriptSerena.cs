@@ -42,7 +42,6 @@ public class ScriptSerena : MonoBehaviour
         }
         else
         {
-            // Delay if no audio clip is assigned
             yield return new WaitForSeconds(3f);
         }
 
