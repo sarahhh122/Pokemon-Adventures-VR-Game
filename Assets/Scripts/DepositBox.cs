@@ -21,8 +21,7 @@ public AudioSource sfxSource;
         }
         }
 
-        // Optional: destroy or do something else with 'other'
-        // Destroy(other.gameObject);
+
     }
 }
 
