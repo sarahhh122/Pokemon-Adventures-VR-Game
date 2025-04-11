@@ -13,14 +13,12 @@ public class QuizManager : MonoBehaviour
         public int correctAnswerIndex;    //MY CORRECT ANSWER
     }
 
-    [Header("Quiz Data")]
     public Question[] questions;          
     
-    [Header("UI References")]
-    public TMP_Text questionTextUI;       // text for displaying the question
-    public TMP_Text feedbackTextUI;       // text for right or no answer
-    public Transform optionsContainer;    // answer buttons instantiated
-    public GameObject optionButtonPrefab; // buttonsss for mcq
+    public TMP_Text questionTextUI;       
+    public TMP_Text feedbackTextUI;      
+    public Transform optionsContainer;    
+    public GameObject optionButtonPrefab; 
 
     private int currentQuestionIndex = 0;
     private int score = 0;
@@ -38,17 +36,14 @@ public class QuizManager : MonoBehaviour
         ClearOptions();
         if (currentQuestionIndex < questions.Length)
         {
-            // Set the question text on the ui canvassss
             Question currentQuestion = questions[currentQuestionIndex];
             questionTextUI.text = currentQuestion.questionText;
             feedbackTextUI.text = ""; 
 
-            // create a button for each answer option (for memorryyy)
             for (int i = 0; i < currentQuestion.options.Length; i++)
             {
                 GameObject newButton = Instantiate(optionButtonPrefab, optionsContainer);
                 
-                // Set the text on the button
                 TMP_Text textButton = newButton.GetComponentInChildren<TMP_Text>();
                 if (textButton != null)
                 {
@@ -58,7 +53,6 @@ public class QuizManager : MonoBehaviour
                 RectTransform rt = newButton.GetComponent<RectTransform>();
                 if (rt != null)
                 {
-                    // index 0: upper left, 1: upper right, 2: lower left, 3: lower right just for offsetsss
                     Vector2 offset = Vector2.zero;
                     switch (i)
                     {
