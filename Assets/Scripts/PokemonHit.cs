@@ -16,7 +16,6 @@ public class PokemonHit : MonoBehaviour
             audioSource = gameObject.AddComponent<AudioSource>();
     }
 
-    // Using trigger detection for the collision with the PokeBall
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("PokeBall"))
