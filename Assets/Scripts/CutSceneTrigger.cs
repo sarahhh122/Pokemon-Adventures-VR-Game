@@ -13,7 +13,6 @@ public class CutsceneTrigger : MonoBehaviour
     {
           if (hasTriggered)
             return;
-        // Check if the entering object is the player (if a tag is set)
         if (!string.IsNullOrEmpty(triggeringTag) && !other.CompareTag(triggeringTag))
         {
             return;
