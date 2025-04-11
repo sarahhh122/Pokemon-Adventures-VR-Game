@@ -56,7 +56,6 @@ public class StartUiScene : MonoBehaviour
         mainMenuPanel.SetActive(true);
     }
 
-    // Call this method when the Quit button is clicked.
     public void QuitGame()
     {
         Application.Quit();
