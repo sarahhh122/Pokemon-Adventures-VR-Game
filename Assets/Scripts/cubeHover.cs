@@ -11,7 +11,7 @@ public class cubeHover : MonoBehaviour
         if (panel != null)
         {
             panel.SetActive(false);
-            Debug.Log("Hover Enter: Panel deactivated.");
+           // Debug.Log("Hover Enter.");
         }
     }
 
@@ -20,7 +20,7 @@ public class cubeHover : MonoBehaviour
         if (panel != null)
         {
             panel.SetActive(true);
-            Debug.Log("Hover Exit: Panel activated.");
+            // Debug.Log("Hover Exit");
         }
     }
 }
