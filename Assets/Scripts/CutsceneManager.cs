@@ -3,9 +3,9 @@ using UnityEngine.Video;
 
 public class CutsceneManager : MonoBehaviour
 {    
-    public GameObject videoQuad;  // Your quad for the cutscene; it should be disabled by default.
+    public GameObject videoQuad;  // Quad 
 
-    public VideoPlayer videoPlayer;  // VideoPlayer set to play your cutscene.
+    public VideoPlayer videoPlayer;  // VideoPlayer
 
    
     public GameObject leftController;
@@ -16,14 +16,14 @@ public class CutsceneManager : MonoBehaviour
     // Call this method to start the cutscene
     public void PlayCutscene()
     {
-        // Disable VR controllers to prevent input during the cutscene.
+        // Disable VR controllers :))
         if (leftController != null) leftController.SetActive(false);
         if (rightController != null) rightController.SetActive(false);
 
         // Enable the video quad.
         if (videoQuad != null) videoQuad.SetActive(true);
 
-        // Start playing the video.
+        // play the video.
         if (videoPlayer != null)
         {
             videoPlayer.isLooping = false;
@@ -35,17 +35,15 @@ public class CutsceneManager : MonoBehaviour
         }
     }
 
-    // Called when the VideoPlayer finishes playing.
     private void OnVideoFinished(VideoPlayer vp)
     {
         EndCutscene();
     }
 
-    // End the cutscene and re-enable VR controllers.
+    // End the cutscene and enable VR controllers.
     public void EndCutscene()
     {
 
-        // Stop the video.
         if (videoPlayer != null)
         {
             videoPlayer.Stop();
@@ -53,10 +51,10 @@ public class CutsceneManager : MonoBehaviour
         }
         
 
-        // Disable the video quad.
+        // Disable the video 
         if (videoQuad != null) videoQuad.SetActive(false);
 
-        // Re-enable VR controllers.
+        // enable VR controllers.
         if (leftController != null) leftController.SetActive(true);
         if (rightController != null) rightController.SetActive(true);
     }
