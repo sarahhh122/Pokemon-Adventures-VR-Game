@@ -6,6 +6,8 @@ public class StartUiScene : MonoBehaviour
     public GameObject mainMenuPanel;   // main menu
     public GameObject aboutPanel;      // About panel
     public GameObject optionsPanel;      // Options panel
+    public GameObject creditPanel;      // Credit panel
+
 
     private bool isMuted = false; 
 
@@ -21,6 +23,17 @@ public class StartUiScene : MonoBehaviour
         mainMenuPanel.SetActive(false);
         aboutPanel.SetActive(true);
     }
+    public void OpenCredit()
+    {
+        mainMenuPanel.SetActive(false);
+        creditPanel.SetActive(true);
+    }
+    public void CloseCredit()
+    {
+        creditPanel.SetActive(false);
+        mainMenuPanel.SetActive(true);
+    }
+   
         public void CloseOptions()
     {
         optionsPanel.SetActive(false);

@@ -6,6 +6,8 @@ public class PokemonHit : MonoBehaviour
     public int scoreValue = 20;
     public AudioClip goodJobClip;
     private AudioSource audioSource;
+    public GameObject captureParticlesPrefab;
+
 
     void Start()
     {
@@ -28,6 +30,20 @@ public class PokemonHit : MonoBehaviour
         ScoreManager.instance.AddScore(scoreValue);
         
         AudioSource.PlayClipAtPoint(goodJobClip, transform.position);
+
+         if (captureParticlesPrefab != null)
+        {
+            GameObject particles = Instantiate(captureParticlesPrefab, transform.position, Quaternion.identity);
+            ParticleSystem ps = particles.GetComponent<ParticleSystem>();
+            if (ps != null)
+            {
+                Destroy(particles, ps.main.duration + ps.main.startLifetime.constantMax);
+            }
+            else
+            {
+                Destroy(particles, 0.5f);
+            }
+        }
         
         Renderer[] renderers = GetComponentsInChildren<Renderer>();
         foreach (Renderer r in renderers)

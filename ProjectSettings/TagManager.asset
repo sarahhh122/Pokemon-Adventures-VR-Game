@@ -8,6 +8,8 @@ TagManager:
   - PokeBall
   - Music
   - HoverOnly
+  - Item
+  - Pokemon
   layers:
   - Default
   - TransparentFX

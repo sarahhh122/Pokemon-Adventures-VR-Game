@@ -13,7 +13,6 @@ public class cantGrab : MonoBehaviour
     void Awake()
     {
         grabInteractable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
-        // Allow hover but disallow grab
         grabInteractable.interactionLayers = hoverLayer | grabLayer;
     }
 }
